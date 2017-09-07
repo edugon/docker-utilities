@@ -8,9 +8,11 @@
 
 ## About
 When working with Docker within a Windows environment, you will need to perform some basic actions almost every time.
+
 This repository contains some scripts in order to automate this actions and make things easier. :)
 
 > If you are using docker-compose, this is not your thing.
+
 > Not tested with native Docker running in Unix environment.
 
 ## Prerequisites
@@ -27,6 +29,7 @@ This repository contains some scripts in order to automate this actions and make
 7. Enjoy. :)
 
 If everything goes as expected, you will see the following output:
+
 ``
 *** setting up docker's environment...
 Welcome to docker's utilities script
