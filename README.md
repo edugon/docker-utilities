@@ -18,18 +18,16 @@ This scripts also allows you to talk docker within any bash terminal (beyond the
 > If you are using **docker-compose**, this is not your thing. :)
 
 ## Prerequisites
-- Windows 7 or higher.
-- Docker for windows (tested and working with v17.05.0-ce).
-- Git bash for Windows (tested and working with v2.8.1.windows.1).
+- **Windows 7** or higher.
+- [**Docker for Windows**](https://docs.docker.com/docker-for-windows/install/) (tested and working with v17.05.0-ce).
+- [**Git for Windows**](https://git-scm.com/download/win) (tested and working with v2.8.1.windows.1).
 
 ## Deployment
-1. Install [**Docker for Windows**](https://docs.docker.com/docker-for-windows/install/).
-2. Install [**Git for Windows**](https://git-scm.com/download/win).
-3. Copy the script (without extension) to ``C:\Program Files\Git\mingw64\bin``.
-4. Edit file ``.bashrc`` in ``C:\Users\UserName`` (create new one if doesn't exist).
-5. Add the line ``export PATH=$PATH:~/bin`` to the file and save.
-6. Open Git bash and type the name of the script.
-7. Enjoy. :)
+1. Copy the script (remove extension) to ``C:\Program Files\Git\mingw64\bin``.
+2. Edit file ``.bashrc`` in ``C:\Users\<name>`` (create a new one if it doesn't exist).
+3. Add the line ``export PATH=$PATH:~/bin`` to the file and save.
+4. Open Git Bash and type the name of the script.
+5. Enjoy. :)
 
 If everything goes as expected, you will see the following output:
 ``
