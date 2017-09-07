@@ -122,6 +122,11 @@ function cleanImages() {
 	fi
 }
 
+# Show all volumes
+function showVolumes() {
+    docker volume ls
+}
+
 # Remove all dangling volumes
 function cleanVolumes() {
 	if docker volume rm $(docker volume ls -q -f dangling=true); then
@@ -149,8 +154,8 @@ echo "What do you want me to do?"
 PS3="Please enter your choice: "
 options=("Show all machines" "Start machine" "Stop machine" "Restart machine" "Show machine IP" 
     "Show images" "Build new image" "Remove image" "Clean dangling images" "Show containers" 
-    "Run new container" "Start container" "Stop container" "Remove container" "Clean dangling volumes" 
-    "About this script" "Exit")
+    "Run new container" "Start container" "Stop container" "Remove container" "Show volumes" 
+    "Clean dangling volumes" "About this script" "Exit")
 select opt in "${options[@]}"
 do
     case $opt in
@@ -222,6 +227,9 @@ do
             read name
             echo "*** Removing container..."
             removeContainer $name;;
+        "Show volumes")
+            echo "*** showing all volumes..."
+            showVolumes;;
         "Clean dangling volumes")
             echo "*** cleaning up dangling volumes..."
             cleanVolumes;;
