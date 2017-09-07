@@ -15,7 +15,7 @@ This scripts also allows you to talk docker within any bash terminal (beyond the
 
 ## Prerequisites
 - Windows 7 or higher.
-- Docker for windows (tested and working with v1.11.2).
+- Docker for windows (tested and working with v17.05.0-ce).
 - Git bash for Windows (tested and working with v2.8.1.windows.1).
 
 ## Deployment
