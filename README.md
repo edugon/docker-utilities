@@ -6,6 +6,8 @@
 
 #### Scripts to automate some docker basic actions.
 
+![](https://d25lcipzij17d.cloudfront.net/badge.svg?id=gh&type=6&v=0.0.1&x2=0)
+
 ## About
 When working with Docker within a Windows environment, you will need to perform some basic actions almost every time.
 This repository contains some scripts in order to automate this actions and make things easier.
