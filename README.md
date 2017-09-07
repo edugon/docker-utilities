@@ -1,9 +1,9 @@
 # docker-utilities
 #### Scripts to automate some docker basic actions.
 
-![](https://cdn0.iconfinder.com/data/icons/social-media-2104/24/social_media_social_media_logo_docker-64.png)
 ![](https://cdn0.iconfinder.com/data/icons/social-media-2104/24/social_media_social_media_logo_git-64.png)
 ![](https://cdn0.iconfinder.com/data/icons/logos-brands/24/logo_brand_brands_logos_microsoft_windows-64.png)
+![](https://cdn0.iconfinder.com/data/icons/social-media-2104/24/social_media_social_media_logo_docker-64.png)
 
 ![](https://d25lcipzij17d.cloudfront.net/badge.svg?id=gh&type=6&v=1.0&x2=0)
 ![](https://img.shields.io/badge/Maintained%3F-yes-green.svg)
