@@ -6,6 +6,9 @@
 ![](https://cdn0.iconfinder.com/data/icons/logos-brands/24/logo_brand_brands_logos_microsoft_windows-64.png)
 
 ![](https://d25lcipzij17d.cloudfront.net/badge.svg?id=gh&type=6&v=1.0&x2=0)
+![](https://img.shields.io/badge/Maintained%3F-yes-green.svg)
+![](https://img.shields.io/badge/Made%20with-Bash-1f425f.svg)
+![](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)
 
 ## About
 When working with Docker within a Windows environment, you will need to perform some basic actions almost every time.
