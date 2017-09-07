@@ -13,8 +13,9 @@ This repository contains some scripts in order to automate this actions and make
 > If you are using docker-compose, this is not your thing. :)
 
 ## Prerequisites
+- Windows 7 or higher.
 - Docker for windows (tested and working with v1.11.2).
-- Git bash for Windows (tested and working with Windows 7).
+- Git bash for Windows (tested and working with v2.8.1.windows.1).
 
 ## Deployment
 1. Install [Docker for Windows](https://docs.docker.com/docker-for-windows/install/).
@@ -42,4 +43,4 @@ What do you want me to do?
 Please enter your choice:
 ``
 
-> Not tested in Unix environments.
+> Not tested in Unix or Hyper-V environments.
