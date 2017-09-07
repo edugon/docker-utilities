@@ -41,10 +41,10 @@ What do you want me to do?
 3) Stop machine             12) Start container
 4) Restart machine          13) Stop container
 5) Show machine IP          14) Remove container
-6) Show images              15) Clean dangling volumes
-7) Build new image          16) About this script
-8) Remove image             17) Exit
-9) Clean dangling images
+6) Show images              15) Show volumes
+7) Build new image          16) Clean dangling volumes
+8) Remove image             17) About this script
+9) Clean dangling images    18) Exit
 Please enter your choice:
 ``
 
