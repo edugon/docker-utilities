@@ -147,10 +147,8 @@ function info() {
 }
 
 # Bash menu
-clear
-setEnv
-echo "Welcome to docker's utilities script"
-echo "What do you want me to do?"
+clear; setEnv
+echo "Welcome to docker's utilities script"; echo "What do you want me to do?"
 PS3="Please enter your choice: "
 options=("Show all machines" "Start machine" "Stop machine" "Restart machine" "Show machine IP" 
     "Show images" "Build new image" "Remove image" "Clean dangling images" "Show containers" 
@@ -159,42 +157,35 @@ options=("Show all machines" "Start machine" "Stop machine" "Restart machine" "S
 select opt in "${options[@]}"
 do
     case $opt in
-        "Show all machines")
-            echo "*** showing docker machines..."
-            showMachines;;
+        "Show all machines") 
+			echo "*** showing docker machines..."
+			showMachines;;
         "Start machine")
-            echo "Enter the machine name: "
-            read name
+            echo "Enter the machine name: "; read name 
             echo "*** starting docker machine..."
             startMachine $name;;
         "Stop machine")
-            echo "Enter the machine name: "
-            read name
+            echo "Enter the machine name: "; read name
             echo "*** stopping docker machine..."
             stopMachine $name;;
         "Restart machine")
-            echo "Enter the machine name: "
-            read name
+            echo "Enter the machine name: "; read name
             echo "*** restarting docker machine..."
             restartMachine $name;;
         "Show machine IP")
-            echo "Enter the machine name: "
-            read name
+            echo "Enter the machine name: "; read name
             echo "*** showing docker machine IP..."
             showMachineIP $name;;
         "Show images")
             echo "*** showing built images..."
             showImages;;
         "Build new image")
-            echo "Enter the image name: "
-            read name
-            echo "Enter the Dockerfile path (. if it's within the current folder): "
-            read path
+            echo "Enter the image name: "; read name
+            echo "Enter the Dockerfile path (. if it's within the current folder): "; read path
             echo "*** building new image..."
             buildImage $name $path;;
         "Remove image")
-            echo "Enter the image name/id: "
-            read name
+            echo "Enter the image name/id: "; read name
             echo "*** Removing image..."
             removeImage $name;;
         "Clean dangling images")
@@ -204,27 +195,21 @@ do
             echo "*** showing all containers..."
             showContainers;;
         "Run new container")
-            echo "Enter the container name: "
-            read name
-            echo "Enter the exposed ports (separated with :): "
-            read ports
-            echo "Enter the image name: "
-            read image
+            echo "Enter the container name: "; read name
+            echo "Enter the exposed ports (separated with :): "; read ports
+            echo "Enter the image name: "; read image
             echo "*** running new container..."
             runContainer $name $ports $image;;
         "Start container")
-            echo "Enter the container name/id: "
-            read name
+            echo "Enter the container name/id: "; read name
             echo "*** starting container..."
             startContainer $name;;
         "Stop container")
-            echo "Enter the container name/id: "
-            read name
+            echo "Enter the container name/id: "; read name
             echo "*** Stopping container..."
             stopContainer $name;;
         "Remove container")
-            echo "Enter the container name/id: "
-            read name
+            echo "Enter the container name/id: "; read name
             echo "*** Removing container..."
             removeContainer $name;;
         "Show volumes")
