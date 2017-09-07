@@ -141,8 +141,8 @@ function info() {
     echo "DOCKER'S UTILITIES SCRIPT"
     echo "Coded by Eduu <egonrea@gmail.com>"
     echo "v1.0"
-    echo "Tested and working in Windows 7"
-    echo "Prepared for classic docker containers (Oracle VMBox)"
+    echo "Tested and working on Windows"
+    echo "Prepared for Linux containers (not tested with Hyper-V)"
     echo "For any doubt or improvement please contact this email"
 }
 
