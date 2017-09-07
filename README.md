@@ -2,9 +2,9 @@
 
 ![](https://cdn0.iconfinder.com/data/icons/social-media-2104/24/social_media_social_media_logo_docker-64.png)
 ![](https://cdn0.iconfinder.com/data/icons/social-media-2104/24/social_media_social_media_logo_git-64.png)
-![](https://cdn3.iconfinder.com/data/icons/social-media-logos-glyph/2048/5314_-_Windows-64.png)
+![](https://cdn0.iconfinder.com/data/icons/logos-brands/24/logo_brand_brands_logos_microsoft_windows-64.png)
 
-#### Scripts to automate docker basic actions.
+#### Scripts to automate some docker basic actions.
 
 ## About
 When working with Docker within a Windows environment, you will need to perform some basic actions almost every time.
