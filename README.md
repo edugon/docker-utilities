@@ -46,4 +46,4 @@ What do you want me to do?
 Please enter your choice:
 ``
 
-> Not tested with **Unix** or **Hyper-V** environments.
+> Prepared for **Linux containers**, not tested with **Hyper-V**.
