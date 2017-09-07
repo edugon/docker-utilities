@@ -10,7 +10,7 @@
 When working with Docker within a Windows environment, you will need to perform some basic actions almost every time.
 This repository contains some scripts in order to automate this actions and make things easier.
 
-> If you are using docker-compose, this is not your thing. :)
+> If you are using **docker-compose**, this is not your thing. :)
 
 ## Prerequisites
 - Windows 7 or higher.
@@ -18,8 +18,8 @@ This repository contains some scripts in order to automate this actions and make
 - Git bash for Windows (tested and working with v2.8.1.windows.1).
 
 ## Deployment
-1. Install [Docker for Windows](https://docs.docker.com/docker-for-windows/install/).
-2. Install [Git for Windows](https://git-scm.com/download/win).
+1. Install [**Docker for Windows**](https://docs.docker.com/docker-for-windows/install/)**.
+2. Install [**Git for Windows**](https://git-scm.com/download/win).
 3. Copy the script (without extension) to ``C:\Program Files\Git\mingw64\bin``.
 4. Edit file ``.bashrc`` in ``C:\Users\UserName`` (create new one if doesn't exist).
 5. Add the line ``export PATH=$PATH:~/bin`` to the file and save.
@@ -43,4 +43,4 @@ What do you want me to do?
 Please enter your choice:
 ``
 
-> Not tested in Unix or Hyper-V environments.
+> Not tested in **Unix** or **Hyper-V** environments.
