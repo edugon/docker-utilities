@@ -143,7 +143,7 @@ function info() {
     echo "v1.0"
     echo "Tested and working on Windows"
     echo "Prepared for Linux containers (not tested with Hyper-V)"
-    echo "For any doubt or improvement please contact this email"
+    echo "For any doubt or improvement please contact by email"
 }
 
 # Bash menu
