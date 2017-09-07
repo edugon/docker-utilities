@@ -2,5 +2,5 @@
 
 #### Scripts to automate docker basic actions.
 
-![](https://git-for-windows.github.io/img/gwindows_logo.png)
+![](https://cloudposse.com/wp-content/uploads/sites/29/2016/04/docker.png)
 
