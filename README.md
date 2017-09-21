@@ -13,7 +13,7 @@
 ## About
 When working with Docker within a Windows environment, you will need to perform some basic actions almost every time.
 This repository contains some scripts in order to automate these actions and make things easier.
-This scripts also allows you to talk docker within any bash terminal (beyond the docker toolbox).
+These scripts also allows you to talk docker within any bash terminal (beyond the docker toolbox).
 
 > If you are using **docker-compose**, this is not your thing. :)
 
