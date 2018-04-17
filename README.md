@@ -11,7 +11,7 @@
 ![](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)
 
 ## About
-When working with Docker within a Windows environment, you will need to perform some basic actions almost every time.
+When working with Docker within a Windows 7 environment, you will need to perform some basic actions almost every time.
 This repository contains some scripts in order to automate these actions and make things easier.
 These scripts also allow you to talk docker within any bash terminal (beyond the docker toolbox).
 
