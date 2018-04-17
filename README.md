@@ -17,6 +17,8 @@ These scripts also allow you to talk docker within any bash terminal (beyond the
 
 > If you are using **docker-compose**, this is not your thing. :)
 
+docker-utilities just automates some basic commands for the management of docker machines, containers and images.
+
 ## Prerequisites
 - **Windows 7** or higher.
 - [**Docker for Windows**](https://docs.docker.com/docker-for-windows/install/) (tested and working with v17.05.0-ce).
