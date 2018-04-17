@@ -46,4 +46,4 @@ What do you want me to do?
 Please enter your choice:
 ``
 
-> Prepared for **Linux containers**, not tested with **Hyper-V**.
+> Developed for **Windows 7** using **Linux containers**, not tested with **Hyper-V**.
