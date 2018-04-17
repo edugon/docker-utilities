@@ -26,7 +26,7 @@ These scripts also allow you to talk docker within any bash terminal (beyond the
 1. Copy the script (remove extension) to ``C:\Program Files\Git\mingw64\bin``.
 2. Edit file ``.bashrc`` in ``C:\Users\<name>`` (create a new one if it doesn't exist).
 3. Add the line ``export PATH=$PATH:~/bin`` to the file and save.
-4. Open Git Bash and type the name of the script.
+4. Open Git Bash and type the name of the script ``docker-utilities``.
 5. Enjoy. :)
 
 If everything goes as expected, you will see the following output:
