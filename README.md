@@ -32,7 +32,7 @@ docker-utilities just automates some basic commands for the management of docker
 5. Enjoy. :)
 
 If everything goes as expected, you will see the following output:
-``
+```
 *** setting up docker's environment...
 Welcome to docker's utilities script
 What do you want me to do?
@@ -46,6 +46,6 @@ What do you want me to do?
 8) Remove image             17) About this script
 9) Clean dangling images    18) Exit
 Please enter your choice:
-``
+```
 
 > Developed for **Windows 7** using **Linux containers**, not tested with **Hyper-V**.
