@@ -1,3 +1,4 @@
+
 # docker-utilities
 #### Scripts to automate some docker basic actions.
 
@@ -11,7 +12,7 @@
 ![](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)
 
 ## About
-When working with Docker within a Windows 7 environment, you will need to perform some basic actions almost every time.
+When working with Docker engine, you will need to perform some basic actions almost every time.
 This repository contains some scripts in order to automate these actions and make things easier.
 These scripts also allow you to talk docker within any bash terminal (beyond the docker toolbox).
 
@@ -20,32 +21,52 @@ These scripts also allow you to talk docker within any bash terminal (beyond the
 docker-utilities just automates some basic commands for the management of docker machines, containers and images.
 
 ## Prerequisites
-- **Windows 7** or higher.
-- [**Docker for Windows**](https://docs.docker.com/docker-for-windows/install/) (tested and working with v17.05.0-ce).
-- [**Git for Windows**](https://git-scm.com/download/win) (tested and working with v2.8.1.windows.1).
+- **Unix** or **Windows** based distribution.
+- [**Docker Engine**](https://www.docker.com/products/docker-engine) or [**Docker Toolbox**](https://docs.docker.com/toolbox/toolbox_install_windows/) (Windows 7).
+- **Git** or [**Git for Windows**](https://git-scm.com/download/win) (Windows 7).
+> Tested for Debian 9.5.0 and Windows 7 (Docker Toolbox).
 
-## Deployment
-1. Copy the script (remove extension) to ``C:\Program Files\Git\mingw64\bin``.
-2. Edit file ``.bashrc`` in ``C:\Users\<name>`` (create a new one if it doesn't exist).
-3. Add the line ``export PATH=$PATH:~/bin`` to the file and save.
-4. Open Git Bash and type the name of the script ``docker-utilities``.
-5. Enjoy. :)
+## Run on Unix
+Once you have downloaded this repository, just run the main script: 
+- `$ sudo bash docker-utilities.sh`
 
+If you want this script to be used from everywhere, add it to your `PATH`:
+- `$ export PATH=$PATH:/full-path/docker-utilities`
+
+This works only for the current session of your terminal. To make the change persistent, you should add the previous command to your `~/.bashrc`.
+
+> Execute docker-utilities using `sudo` to avoid issues :)
+
+Now you can use `$ sudo docker-utilities.sh` from everywhere!
+
+## Run on Windows
+
+TBD
+
+## Utilities
 If everything goes as expected, you will see the following output:
 ```
-*** setting up docker's environment...
+... setting up docker's environment
 Welcome to docker's utilities script
 What do you want me to do?
-1) Show all machines        10) Show containers
-2) Start machine            11) Run new container
-3) Stop machine             12) Start container
-4) Restart machine          13) Stop container
-5) Show machine IP          14) Remove container
-6) Show images              15) Show volumes
-7) Build new image          16) Clean dangling volumes
-8) Remove image             17) About this script
-9) Clean dangling images    18) Exit
+1) Manage machines    3) Manage containers  5) About this script
+2) Manage images      4) Clean system	    6) Exit
 Please enter your choice:
 ```
-
-> Developed for **Windows 7** using **Linux containers**, not tested with **Hyper-V**.
+Machines menu (Docker Toolbox):
+```
+1) Show machines  3) Stop machine     5) Show machine IP
+2) Start machine  4) Restart machine  6) Back
+```
+Images menu:
+```
+1) Show images
+2) Build image
+3) Remove image
+4) Back
+```
+Containers menu:
+```
+1) Show containers  3) Start container	5) Show volumes
+2) Run container    4) Stop container	6) Back
+```
