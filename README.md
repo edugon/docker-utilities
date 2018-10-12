@@ -1,4 +1,3 @@
-
 # docker-utilities
 #### Scripts to automate some docker basic actions.
 
@@ -33,7 +32,7 @@ Once you have downloaded this repository, just run the main script:
 If you want this script to be used from everywhere, add it to your `PATH`:
 - `$ export PATH=$PATH:/full-path/docker-utilities`
 
-This works only for the current session of your terminal. To make the change persistent, you should add the previous command to your `~/.bashrc`.
+To make this change persistent, you should add the previous command to your `~/.bashrc`.
 
 > Execute docker-utilities using `sudo` to avoid issues :)
 
