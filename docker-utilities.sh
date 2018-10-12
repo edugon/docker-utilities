@@ -1,10 +1,5 @@
 #!/bin/bash
 
-# make files executable
-function makeExecutable() {
-    chmod a+x utils/*
-}
-
 # set docker environment (Docker Toolbox)
 function setEnv() {
     if docker-machine 2> /dev/null; then
@@ -16,7 +11,8 @@ function setEnv() {
 # move to machines management script
 function manageMachines() {
     if docker-machine 2> /dev/null; then
-        bash utils/machines.sh;
+        path=$(sudo find . -path "*utils/machines.sh")
+        bash $path
     else
         echo "... you are not using Docker Toolbox"  
     fi
@@ -24,12 +20,14 @@ function manageMachines() {
 
 # move to images management script
 function manageImages() {
-    bash utils/images.sh
+    path=$(sudo find . -path "*utils/images.sh")
+    bash $path
 }
 
 # move to containers management script
 function manageContainers() {
-    bash utils/containers.sh 
+    path=$(sudo find . -path "*utils/containers.sh")
+    bash $path
 }
 
 # clean docker system
