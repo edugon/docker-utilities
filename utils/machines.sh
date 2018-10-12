@@ -42,7 +42,7 @@ function showMachineIP() {
 # menu
 PS3="Please enter your choice: "
 options=("Show machines" "Start machine" "Stop machine" "Restart machine" 
-    "Show machine IP" "Back" "Exit")
+    "Show machine IP" "Back")
 select opt in "${options[@]}"
 do
     case $opt in
