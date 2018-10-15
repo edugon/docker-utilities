@@ -35,8 +35,11 @@ To make this change persistent, you should add the previous command to your `~/.
 Now you can use `$ sudo docker-utilities.sh` from everywhere!
 
 ## Run on Windows
+Once you have downloaded this repository, just run the main script: 
+- `$ ./docker-utilities.sh`
 
-TBD
+If you want this script to be used from everywhere, add it to your `PATH`:
+- TBD
 
 ## Utilities
 If everything goes as expected, you will see the following output:
