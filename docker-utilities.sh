@@ -11,7 +11,7 @@ function setEnv() {
 # move to machines management script
 function manageMachines() {
     if docker-machine 2> /dev/null; then
-        path=$(sudo find . -path "*utils/machines.sh")
+        path=$(find . -path "*utils/machines.sh")
         bash $path
     else
         echo "... you are not using Docker Toolbox"  
@@ -20,14 +20,24 @@ function manageMachines() {
 
 # move to images management script
 function manageImages() {
-    path=$(sudo find . -path "*utils/images.sh")
-    bash $path
+    if docker-machine 2> /dev/null; then
+        path=$(find . -path "*utils/images.sh")
+    	bash $path
+    else
+        path=$(sudo find . -path "*utils/images.sh")
+        bash $path
+    fi
 }
 
 # move to containers management script
 function manageContainers() {
-    path=$(sudo find . -path "*utils/containers.sh")
-    bash $path
+    if docker-machine 2> /dev/null; then
+        path=$(find . -path "*utils/containers.sh")
+    	bash $path
+    else 
+        path=$(sudo find . -path "*utils/containers.sh")
+        bash $path
+    fi
 }
 
 # clean docker system
