@@ -5,6 +5,7 @@
 ![](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)
 
 #### Scripts to automate some docker basic actions.
+> This is a migrated repository, the currently maintained version is located [here](https://gitlab.com/edugon/docker-utilities).
 
 ## About
 When working with Docker engine, you will need to perform some basic actions almost every time.
